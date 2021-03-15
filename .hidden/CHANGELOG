@@ -1,0 +1,14 @@
+* Sun Mar 01 2020 luisgulo <luisgulo@soloconlinux.org.es> 1.0.8
+- Se ha activado el boton para cambiar de tipo de musica en las emisoras
+- Ahora hay emisoras con musica de los años 30 a los 90, Ambiente, BSO, Blues, Japonesa, New Age, Psicodelica, Romantica, Top40 y 4 Mix especiales.
+- Un total de 90 emisoras en la aplicacion.
+
+* Fri Feb 28 2020 luisgulo <luisgulo@soloconlinux.org.es> 1.0.6
+- Se puede mover la radio a cualquiera de las 4 esquinas del escritorio.
+- Se amplia la lista de Emisoras.
+- El boton roto ahora para o inicia la emisora actual
+- Se ha compactado el tamaño de la radio´
+
+* Thu Feb 27 2020 luisgulo <luisgulo@soloconlinux.org.es> 1.0.1
+- Lanzamiento inicial
+

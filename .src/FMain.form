@@ -1,0 +1,66 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,57.5,57.5)
+  Text = ("RadioLinux")
+  Icon = Picture["RadioLinux_48x48.png"]
+  Picture = Picture["RadioLinux_estrecha.png"]
+  Mask = True
+  Resizable = False
+  Border = False
+  { imagenRADIO PictureBox
+    MoveScaled(0,0,57.5,57.5)
+    Picture = Picture["RadioLinux_estrecha.png"]
+  }
+  { labelEMISORA Label
+    MoveScaled(20,38,18,4)
+    Font = Font["Optician Sans,Bold,13"]
+    Foreground = &HA0A04F&
+    Text = ("RadioLinux")
+    Alignment = Align.Center
+  }
+  { botonMenos PictureBox
+    MoveScaled(7,33,9,9)
+  }
+  { botonMas PictureBox
+    MoveScaled(42,33,9,9)
+    ToolTip = ("Salir")
+  }
+  { botonParar PictureBox
+    MoveScaled(20,45,5,3)
+    ToolTip = ("Pausa")
+  }
+  { botonAnterior PictureBox
+    MoveScaled(25,45,4,3)
+    ToolTip = ("Anterior")
+  }
+  { botonSiguiente PictureBox
+    MoveScaled(29,45,4,3)
+    ToolTip = ("Siguiente")
+  }
+  { botonMenu PictureBox
+    MoveScaled(33,45,4,3)
+    ToolTip = ("Sin uso aun")
+  }
+  { label_version Label
+    MoveScaled(22,48,31,4)
+    Font = Font["Optician Sans,13"]
+    Foreground = &HC09B2F&
+    Text = ("RadioLinux  x.y.z")
+    Alignment = Align.Right
+  }
+  { label_luisgulo Label
+    MoveScaled(13,1,31,5)
+    Font = Font["Aharoni CLM,Bold,11"]
+    Foreground = &HC09B2F&
+    Text = ("Solo Con Linux - Luis Gulo")
+    Alignment = Align.Center
+  }
+  { labelTipoEmisora Label
+    MoveScaled(19,33,18,4)
+    Font = Font["Optician Sans,11"]
+    Foreground = &HA0A04F&
+    Text = ("* Tipo emisora *")
+    Alignment = Align.Center
+  }
+}
